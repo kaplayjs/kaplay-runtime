@@ -25,6 +25,10 @@
       },
       "process": {
         "all": true
+      },
+      "protocol": {
+        "all": true,
+        "assetScope": ["**"]
       }
     },
     "windows": [
@@ -41,11 +45,7 @@
       "active": true,
       "targets": "all",
       "identifier": "com.kaplayjs.runtime",
-      "icon": [
-        "icons/favicon.png",
-        "icons/favicon.icns",
-        "icons/favicon.ico"
-      ]
+      "icon": ["icons/favicon.png", "icons/favicon.icns", "icons/favicon.ico"]
     }
   }
 }
