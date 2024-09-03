@@ -2,7 +2,7 @@
   "build": {
     "beforeDevCommand": "pnpm web:dev",
     "beforeBuildCommand": "pnpm web:build",
-    "devPath": "http://localhost:1420",
+    "devPath": "http://localhost:4321",
     "distDir": "../dist",
     "withGlobalTauri": true
   },
@@ -42,11 +42,9 @@
       "targets": "all",
       "identifier": "com.kaplayjs.runtime",
       "icon": [
-        "icons/32x32.png",
-        "icons/128x128.png",
-        "icons/128x128@2x.png",
-        "icons/icon.icns",
-        "icons/icon.ico"
+        "icons/favicon.png",
+        "icons/favicon.icns",
+        "icons/favicon.ico"
       ]
     }
   }
