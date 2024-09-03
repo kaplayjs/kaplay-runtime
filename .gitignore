@@ -22,3 +22,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# FOR TESTING game.kap ON WEB
+public/game.kap
