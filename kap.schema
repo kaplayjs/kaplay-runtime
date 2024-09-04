@@ -1,0 +1,53 @@
+{
+  "type": "object",
+  "properties": {
+    "VERSION": {
+      "type": "string"
+    },
+    "RUNTIME_VERSION": {
+      "type": "number"
+    },
+    "KAPLAYOPT": {
+      "type": "object"
+    },
+    "assets": {
+      "type": "object",
+      "properties": {
+        "audio": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string"
+              },
+              "src": {
+                "type": "string"
+              },
+              "opt": {
+                "type": "object"
+              }
+            }
+          }
+        },
+        "image": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string"
+              },
+              "src": {
+                "type": "string"
+              },
+              "opt": {
+                "type": "object"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
