@@ -13,7 +13,7 @@
     "assets": {
       "type": "object",
       "properties": {
-        "audio": {
+        "sound": {
           "type": "array",
           "items": {
             "type": "object",
