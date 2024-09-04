@@ -30,7 +30,24 @@
             }
           }
         },
-        "image": {
+        "sprite": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string"
+              },
+              "src": {
+                "type": "string"
+              },
+              "opt": {
+                "type": "object"
+              }
+            }
+          }
+        },
+        "atlas": {
           "type": "array",
           "items": {
             "type": "object",

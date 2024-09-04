@@ -6,7 +6,7 @@ import isTauri from './isTauri';
 
 export default async function getFileURI(file: string): Promise<string> {
   if (isTauri()) {
-    const filePath = await join(dir as string, path.sep, file);
+    const filePath = await join(await dir() as string, path.sep, file);
     const assetUrl = convertFileSrc(filePath);
     return toDataUrl(assetUrl)
   }
