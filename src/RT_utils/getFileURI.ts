@@ -2,9 +2,10 @@ import { join } from '@tauri-apps/api/path';
 import { convertFileSrc } from '@tauri-apps/api/tauri';
 import dir from './getDir';
 import { path } from '@tauri-apps/api';
+import isTauri from './isTauri';
 
 export default async function getFileURI(file: string): Promise<string> {
-  if ("__TAURI__" in window) {
+  if (isTauri()) {
     const filePath = await join(dir as string, path.sep, file);
     const assetUrl = convertFileSrc(filePath);
     return toDataUrl(assetUrl)

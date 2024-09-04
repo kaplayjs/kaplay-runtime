@@ -19,7 +19,8 @@ export default defineConfig(async () => ({
     },
   },
   build: {
-    sourcemap: "inline"
+    sourcemap: "inline",
+    minify: "terser"
   },
   plugins: [
     topLevelAwait({

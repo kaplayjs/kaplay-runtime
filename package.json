@@ -12,7 +12,9 @@
     "tauri": "tauri"
   },
   "dependencies": {
-    "@tauri-apps/api": "^1"
+    "@tauri-apps/api": "^1",
+    "kaplay": "4000.0.0-alpha.4",
+    "terser": "^5.31.6"
   },
   "devDependencies": {
     "@tauri-apps/cli": "^1",
