@@ -1,7 +1,7 @@
 import { invoke } from "@tauri-apps/api";
 import isTauri from "./isTauri";
 
-export const dir = getDir
+export const dir = getDir;
 
 async function getDir() {
   if (isTauri()) {

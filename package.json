@@ -9,11 +9,14 @@
     "web:dev": "vite",
     "web:build": "tsc && vite build",
     "web:preview": "vite preview",
+    "p:check": "prettier --check .",
+    "p:fmt": "prettier --write .",
     "tauri": "tauri"
   },
   "dependencies": {
     "@tauri-apps/api": "^1",
     "kaplay": "4000.0.0-alpha.4",
+    "prettier": "^3.3.3",
     "terser": "^5.31.6"
   },
   "devDependencies": {

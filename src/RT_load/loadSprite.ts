@@ -8,6 +8,10 @@ export default async function loadSprite() {
   const sprite = assets.sprite;
   if (!sprite) return;
   for (const i in sprite) {
-    k.loadSprite(sprite[i].name, await getAsset(sprite[i].src), sprite[i].opt ?? {});
+    k.loadSprite(
+      sprite[i].name,
+      await getAsset(sprite[i].src),
+      sprite[i].opt ?? {},
+    );
   }
 }

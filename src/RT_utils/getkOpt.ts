@@ -11,11 +11,11 @@ export default async function getkOpt() {
   if (isTauri()) {
     const winsize = new window.LogicalSize(
       opt.width * opt.scale,
-      opt.height * opt.scale
+      opt.height * opt.scale,
     );
     appWindow.setSize(winsize);
     appWindow.setFullscreen(opt.fullscreen);
   }
 
-  return opt
+  return opt;
 }

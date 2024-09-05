@@ -7,4 +7,4 @@ const version = kapFile.VERSION ?? VERSION_Fallback;
 const kaplay = (await import(`./libs/${version}.mjs`)).default;
 
 export const k: KAPLAYCtx = kaplay(await getkOpt());
-export default k
+export default k;
