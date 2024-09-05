@@ -23,9 +23,6 @@
               },
               "src": {
                 "type": "string"
-              },
-              "opt": {
-                "type": "object"
               }
             }
           }
@@ -52,13 +49,10 @@
           "items": {
             "type": "object",
             "properties": {
-              "name": {
-                "type": "string"
-              },
               "src": {
                 "type": "string"
               },
-              "opt": {
+              "data": {
                 "type": "object"
               }
             }
