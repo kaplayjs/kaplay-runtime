@@ -16,11 +16,13 @@
   "dependencies": {
     "@tauri-apps/api": "^1",
     "kaplay": "4000.0.0-alpha.4",
+    "lodash": "^4.17.21",
     "prettier": "^3.3.3",
     "terser": "^5.31.6"
   },
   "devDependencies": {
     "@tauri-apps/cli": "^1",
+    "@types/lodash": "^4.17.7",
     "typescript": "^5.2.2",
     "vite": "^5.3.1",
     "vite-plugin-top-level-await": "^1.4.4"

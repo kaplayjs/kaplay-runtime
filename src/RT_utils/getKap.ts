@@ -1,8 +1,6 @@
-import appName from "./getAppName";
-import readTextFile from "./readTextFile";
+import getKapFile from "./getKapFunc";
 
-export const kapFile = JSON.parse(
-  await readTextFile((await appName()) + ".kap"),
-);
+
+export const kapFile = await getKapFile(); 
 
 export default kapFile;
