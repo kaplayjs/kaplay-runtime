@@ -9,3 +9,4 @@ export const KAPLAYOPT_Fallback: KAPLAYOpt | {} = {
   letterbox: true,
   fullscreen: false,
 };
+export const RUNTIME_Version: number = 1;
